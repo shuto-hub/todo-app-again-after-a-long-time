@@ -19,6 +19,7 @@ gem 'bigdecimal'
 
 group :development, :test do
   gem 'reline', '0.5.10'
+  gem 'drb'
   gem "debug",   "1.7.1", platforms: %i[ mri mingw x64_mingw ]
 end
 

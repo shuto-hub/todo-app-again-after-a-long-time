@@ -7,5 +7,11 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: "goodbye!!"
   end
+
+  def about
+  end
+
+  def contact
+  end
   # allow_browser versions: :modern
 end
