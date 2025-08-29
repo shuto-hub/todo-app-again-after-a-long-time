@@ -4,3 +4,5 @@
 //= link controllers/hello_controller.js
 //= link controllers/index.js
 //= link rails.svg
+//= link popper.js
+//= link bootstrap.min.js
