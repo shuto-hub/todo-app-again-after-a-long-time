@@ -1,7 +1,12 @@
-@import "bootstrap";
+@import 'bootstrap';
 /* typography */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1;
 }
 
@@ -123,14 +128,15 @@ aside {
 $gray-medium-light: #eaeaea;
 
 @mixin box_sizing {
-  -moz-box-sizing:    border-box;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
+  box-sizing: border-box;
 }
 
 /* forms */
 
-input, textarea {
+input,
+textarea {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
@@ -172,4 +178,18 @@ input {
       }
     }
   }
+}
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
