@@ -3,6 +3,7 @@ import '@hotwired/turbo-rails';
 import 'controllers';
 import '@popperjs/core';
 import * as bootstrap from 'bootstrap';
+import './custom/image_upload';
 
 // Initialize Bootstrap components on page load and Turbo navigation
 document.addEventListener('DOMContentLoaded', initializeBootstrap);
